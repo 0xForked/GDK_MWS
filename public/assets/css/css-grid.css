@@ -49,13 +49,18 @@
   margin-top: 15px;
   margin-right: 20px;
 }
+.menu-back {
+  color: #0c0c0c;
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
 .aas-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid green;
 }
-
 @media screen and (min-width:700px) {
   .aas-pic {
     margin-top: 20px;

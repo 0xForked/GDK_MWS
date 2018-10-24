@@ -1,0 +1,20 @@
+.cointaner-calculator {
+  position: relative;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  display: grid;
+  height: 100%;
+  grid-gap: 4px;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: 60% 40%;
+  grid-column: 1/-1;
+
+}
+.layout-input {
+  grid-column: 3/4;
+}
+.layout-opsi {
+  grid-column: 4/6;
+}
