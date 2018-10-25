@@ -1,3 +1,5 @@
+var URL = "/assets/raw/places.json";
+
 var mymap = L.map('map').setView([1.4644352,124.8290538], 16);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {

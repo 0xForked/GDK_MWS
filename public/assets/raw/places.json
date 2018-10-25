@@ -1,0 +1,32 @@
+[
+    {
+        "lokasi": [1.463571, 124.829470],
+        "pic": "bensu.png",
+        "nama" : "Geprek BENSU",
+        "alamat": "Jalan R.W.Monginsidi No.19 Sario Malalayang, Sario Tumpaan, Sario, Kota Manado, Sulawesi Utara"
+    },
+    {
+        "lokasi": [1.463387, 124.829769],
+        "pic": "mjm.png",
+        "nama" : "RM. MJM",
+        "alamat": "Jl. Wolter Monginsidi No.3, Ranotana, Sario, Sario Tumpaan, Sario, Kota Manado, Sulawesi Utara"
+    },
+    {
+        "lokasi": [1.463193, 124.828400],
+        "pic": "narto.png",
+        "nama" : "Martabak Mas Narto",
+        "alamat": "Jl. Bethesda, Sario Tumpaan, Sario, Kota Manado, Sulawesi Utara"
+    },
+    {
+        "lokasi": [1.463407, 124.828284],
+        "pic": "alibaba.png",
+        "nama" : "Alibaba Coffee House",
+        "alamat": "Jalan Wolter Monginsidi No.42, Sario Tumpaan, Sario, Sario Tumpaan, Sario, Kota Manado, Sulawesi Utara"
+    },
+    {
+        "lokasi": [1.464188, 124.830079],
+        "pic": "sate.png",
+        "nama" : "Sate Madura Sario",
+        "alamat": "Jl. Ahmad Yani, Sario Utara, Sario, Kota Manado, Sulawesi Utara"
+    }
+]
