@@ -1,20 +1,60 @@
-.cointaner-calculator {
-  position: relative;
-  top: 10%;
-  bottom: 10%;
-  left: 10%;
-  right: 10%;
-  display: grid;
-  height: 100%;
-  grid-gap: 4px;
-  grid-template-columns: repeat(8,1fr);
-  grid-template-rows: 60% 40%;
+.calculator {
+  padding-top: 20px;
+  color: #303f9f;
   grid-column: 1/-1;
-
 }
-.layout-input {
-  grid-column: 3/4;
+.calculate {
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
 }
-.layout-opsi {
-  grid-column: 4/6;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  line-height: 50px;
+  font-size: 46px;
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 5px 10px;
+  text-align: center;
+}
+#result {
+  margin-top: 10px;
+  font-size: 50px;
+}
+.operator-container {
+  position: relative;
+  display: flex;
+  width: 50%;
+}
+hr {
+  margin-right: 40px;
+}
+select.operator {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -30px;
+  background-color: #fbd681;
+  border-radius: 20%;
+  border: none;
+  width: 50px;
+  color: #fff;
+}
+button.clear {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -80px;
+  background-color: red;
+  border-radius: 20%;
+  border: none;
+  width: 40px;
+  color: #fff;
 }

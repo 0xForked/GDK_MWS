@@ -21,15 +21,26 @@
           Kalkulasi Dua Angka
         </h2>
       </div>
-      <div class="cointaner-calculator">
-        <div class="layout-input">
-          <input type="text" size="10" placeholder="Nilai pertama" />
-          <input type="text" size="10" style="margin-top:5px"  placeholder="Nilai kedua" />
-          <button style="width: 38px;margin-top: 5px" > = </button>
-          <input type="text" size="4" placeholder="Hasil" readonly />
-        </div>
-        <div class="layout-opsi">
-          <span>+</span>
+      <div class="calculator"  class="align-center">
+        <div class="calculate">
+          <input type="number" name="input1" id="input1" value="" placeholder="...">
+          <input type="number" name="input2" id="input2" value="" placeholder="...">
+          <div class="operator-container">
+            <hr width="100%">
+            <!-- <button class="operator">+</button> -->
+            <select class="operator" name="operator" id="operator" onchange="operatorListener()">
+              <option value="addition">+</option>
+              <option value="subtraction">-</option>
+              <option value="division">/</option>
+              <option value="multiplication">*</option>
+              <option value="modulus">%</option>
+            </select>
+
+            <button class="clear" id="clear">C</button>
+          </div>
+          <div id="result">
+            ...
+          </div>
         </div>
       </div>
       <div class="footer">
