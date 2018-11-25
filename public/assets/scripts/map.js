@@ -57,7 +57,7 @@ async function getPlaces(url){
 function markPlaces(place) {
     place.forEach(place => {
         return L.marker(place.lokasi).addTo(mymap).bindPopup(place.nama).on("click", () => {
-            document.getElementById('imagePlace').src = `/assets/img/place/${place.pic}`;
+            document.getElementById('imagePlace').src = `/assets/images/place/${place.pic}`;
             document.querySelector('.review').innerHTML = `${place.alamat}`
         });
     })

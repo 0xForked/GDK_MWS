@@ -1,0 +1,15 @@
+{
+    "name": "PWA GDK",
+    "short_name": "PWA GDK",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ee6e73",
+    "icons": [
+      {
+        "src": "/assets/images/aasumitro144x132.png",
+        "sizes": "144x132",
+        "type": "image/png"
+      }
+    ]
+  }
