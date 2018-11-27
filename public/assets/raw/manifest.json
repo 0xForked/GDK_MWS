@@ -7,8 +7,18 @@
     "theme_color": "#ee6e73",
     "icons": [
       {
-        "src": "/assets/images/aasumitro144x132.png",
-        "sizes": "144x132",
+        "src": "/assets/images/aasumitro144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/aasumitro192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/aasumitro512x512.png",
+        "sizes": "512x512",
         "type": "image/png"
       }
     ]
